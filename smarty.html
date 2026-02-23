@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>smarty</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 320vh;
+            background-color: #9AD9D9;
+        }
+        .contenitore {
+            text-align:center;
+            position: relative;
+        }
+
+        .testo.sopra.marvin {
+            color:#027D7D;
+            text-shadow:2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .titolo {
+            font-size: 150px;
+            font-weight: bold;
+            margin: 10px;
+            text-align:center;
+            position: relative;
+            top:310px;
+            font-style:oblique;
+        } 
+        .sottotitolo {
+            font-size: 20px;
+            text-align:center;
+            position: relative;
+            top:90px;
+        }
+        .button-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 60px 100px;
+            background-color: #027D7D;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.5s;
+        }
+
+        .button:hover {
+            box-shadow: 0px 0px 50px rgba(2,112,112, 0.5);
+        }
+        .button1 {
+            position: relative;
+            top: 0px;
+            left: -150px;
+        }
+        .button2 {
+            position: relative;
+            top: -450px;
+            left: 0px;
+        }
+        .button3 {
+            position: relative;
+            top: 0px;
+            left: 150px;
+        }
+
+        .interessi {
+            font-size: 60px;
+            position: relative;
+            top: 250px;
+            margin: 0px;  
+            color:#027E7D;
+        }
+        .robot {
+            width: 500px;
+            height: auto;
+            margin-top: 40px;
+            margin-bottom: 1px;
+            position: relative;
+            top:400px;
+            left:230px;
+        }
+        .rettangolo {
+            padding: 300px 500px;
+            background-color: #027D7D;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.5s;
+            margin: 10px;
+            display: block;
+        }
+        .rettangolo:hover {
+            box-shadow: 0px 0px 50px rgba(2,112,112, 0.5);
+            
+        }
+        .rettangolo1 {
+            position: relative;
+            top: 150px;
+            left: 300px;
+        }
+        .rettangolo2 {
+            position: relative;
+            top: 330px;
+            left: -300px;
+        }
+        .rettangolo3 {
+            position: relative;
+            top: -150px;
+            left: 300px;
+          
+        }
+            
+        .storia {
+            position: relative;
+            top: 700px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        } 
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .rettangoli-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -90%);
+            text-align: center;
+        }
+        .photography {
+            width: 500px;
+            height: auto;
+            margin-top: 40px;
+            margin-bottom: 1px;
+            position: relative;
+            top: 800px;
+            left: -500px;
+        }
+        .graphics {
+            width: 500px;
+            height: auto;
+            margin-bottom: 1px;
+            position: relative;
+            top: 500px;
+            left: -510px;
+        }
+ 
+            
+            
+</style>
+<body>  
+ <header>
+   <div class="testo sopra marvin">
+     <img src="robot.png" alt="robot" class="robot">
+    
+    </div>
+
+    
+  <nav>
+   <div class="contenitore">  
+    <a href="#fotografia" class="button button1">FOTOGRAFIA</a>
+    <a href="#robotica" class="button button2">ROBOTICA</a>
+    <a href="#grafica" class="button button3">GRAFICA 3D</a>
+   </div> 
+  <nav/>
+ </header>
+   
+ <img src="photography.png" class="photography">
+  <section id="fotografia">
+   <div class="rettangolo rettangolo1"></div>
+  </section>
+
+
+  <section id="robotica">
+    <div class="rettangolo rettangolo2"></div>
+  </section>
+
+ <img src="graphics.png" class="graphics"> 
+  <section id="grafica">
+    <div class="rettangolo rettangolo3"></div>
+  </section>
+
+    
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
+    
